@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1A2B4A">
+<title>大健康个护品类情报简报｜2026广交会（第140届）· VD FIT产品团队</title>
+<style>
+  :root{
+    --navy:#1A2B4A;
+    --navy-2:#24395c;
+    --navy-3:#0f1c33;
+    --gold:#C8A24B;
+    --gold-soft:#e8d4a4;
+    --ink:#1b2330;
+    --ink-2:#3f4b5d;
+    --muted:#68748a;
+    --line:#dfe4ec;
+    --bg:#f4f5f8;
+    --card:#ffffff;
+    --warm:#8a5a12;
+    --green:#1f5c3f;
+    --red:#8c3b2e;
+    --radius:12px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size:15px;
+    line-height:1.72;
+    letter-spacing:.01em;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;height:auto;}
+  .wrap{
+    width:100%;
+    max-width:860px;
+    margin:0 auto;
+    padding:0 16px 40px;
+  }
+
+  /* ===== Header ===== */
+  header.hero{
+    background:linear-gradient(158deg,var(--navy-3) 0%,var(--navy) 46%,var(--navy-2) 100%);
+    color:#fff;
+    padding:34px 18px 26px;
+    margin:0 0 22px;
+    position:relative;
+    overflow:hidden;
+  }
+  header.hero::after{
+    content:"";
+    position:absolute;right:-70px;top:-90px;
+    width:260px;height:260px;border-radius:50%;
+    background:radial-gradient(circle,rgba(200,162,75,.22),transparent 68%);
+  }
+  .hero-inner{max-width:860px;margin:0 auto;position:relative;z-index:1;}
+  .brand{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:11.5px;letter-spacing:.2em;color:var(--gold-soft);
+    text-transform:uppercase;margin-bottom:14px;
+  }
+  .brand i{display:block;width:22px;height:1px;background:var(--gold);}
+  h1{
+    margin:0 0 8px;
+    font-size:23px;
+    line-height:1.42;
+    font-weight:700;
+    letter-spacing:.005em;
+  }
+  .en{
+    font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;
+    color:rgba(255,255,255,.62);margin:0 0 18px;
+  }
+  .pills{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px;}
+  .pill{
+    font-size:11.5px;line-height:1.5;
+    padding:4px 9px;border-radius:999px;
+    border:1px solid rgba(255,255,255,.26);
+    background:rgba(255,255,255,.09);
+    color:rgba(255,255,255,.9);
+    white-space:nowrap;
+  }
+  .pill b{color:var(--gold-soft);font-weight:600;margin-right:4px;letter-spacing:.02em;}
+  .hero-lead{
+    font-size:13.5px;line-height:1.8;color:rgba(255,255,255,.82);
+    margin:0;max-width:720px;
+    padding-left:11px;border-left:2px solid rgba(200,162,75,.55);
+  }
+
+  /* ===== Nav chips ===== */
+  .nav{
+    display:flex;gap:8px;overflow-x:auto;
+    padding:0 0 4px;margin:0 0 18px;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  .nav::-webkit-scrollbar{display:none;}
+  .nav a{
+    flex:0 0 auto;
+    font-size:12px;color:var(--navy);
+    background:#fff;border:1px solid var(--line);
+    padding:6px 11px;border-radius:999px;
+    text-decoration:none;white-space:nowrap;
+  }
+
+  /* ===== Section ===== */
+  section{margin:0 0 26px;}
+  .sec-head{
+    display:flex;align-items:flex-start;gap:11px;
+    margin:0 0 12px;padding-top:4px;
+  }
+  .num{
+    font-size:26px;line-height:1;font-weight:800;
+    color:var(--gold);letter-spacing:-.02em;
+    font-variant-numeric:tabular-nums;
+    flex:0 0 auto;padding-top:3px;
+  }
+  .sec-title{flex:1 1 auto;}
+  .sec-title h2{
+    margin:0;font-size:17.5px;line-height:1.42;font-weight:700;color:var(--navy);
+  }
+  .sec-title .sub{
+    font-size:12px;color:var(--muted);margin:2px 0 0;letter-spacing:.02em;
+  }
+  .summary{
+    background:#fff;border:1px solid var(--line);
+    border-left:3px solid var(--gold);
+    border-radius:0 10px 10px 0;
+    padding:11px 14px;margin:0 0 12px;
+    font-size:13.5px;line-height:1.78;
+  }
+  .summary ul{margin:0;padding-left:17px;}
+  .summary li{margin:3px 0;}
+  .summary li b{color:var(--navy);}
+
+  /* ===== Cards ===== */
+  .cards{display:grid;grid-template-columns:1fr;gap:10px;}
+  .card{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);padding:13px 14px 12px;
+  }
+  .card h4{
+    margin:0 0 6px;font-size:14.5px;line-height:1.5;color:var(--navy);font-weight:700;
+  }
+  .card .lead-line{
+    font-size:13px;color:var(--ink-2);margin:0 0 8px;
+  }
+  .kv{display:grid;grid-template-columns:1fr;gap:0;margin:0;}
+  .kv .row{
+    display:grid;grid-template-columns:78px 1fr;gap:8px;
+    padding:5px 0;border-top:1px dashed #eef1f5;font-size:13px;
+  }
+  .kv .row:first-child{border-top:0;}
+  .kv .k{color:var(--muted);}
+  .kv .v{color:var(--ink);}
+  .kv .v b{color:var(--navy);}
+
+  /* KPI */
+  .kpi{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 12px;}
+  .kpi .k-item{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:12px 12px 10px;position:relative;overflow:hidden;
+  }
+  .kpi .k-item::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);
+  }
+  .kpi .kl{font-size:11px;color:var(--muted);letter-spacing:.03em;display:block;}
+  .kpi .kv-num{
+    font-size:23px;font-weight:800;color:var(--navy);line-height:1.22;
+    margin:3px 0 1px;font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+  }
+  .kpi .kd{font-size:11.5px;color:var(--muted);line-height:1.5;}
+
+  /* tags */
+  .tag{
+    display:inline-block;font-size:10.5px;line-height:1.55;
+    padding:1px 6px;border-radius:4px;border:1px solid;
+    white-space:nowrap;font-weight:600;vertical-align:1px;
+  }
+  .t-ok{color:var(--green);border-color:#bcd6c6;background:#f2f8f4;}
+  .t-3rd{color:#5a4a86;border-color:#cfc4e3;background:#f7f4fc;}
+  .t-judge{color:var(--warm);border-color:#e2d0a5;background:#fdf8ec;}
+  .t-check{color:var(--red);border-color:#e2c1b8;background:#fdf4f1;}
+  .badge-tbd{
+    display:inline-block;font-size:12px;font-weight:700;
+    color:#8a5a12;background:#fdf5e4;border:1px solid #e6cf9c;
+    padding:3px 10px;border-radius:6px;margin:0 0 10px;
+  }
+
+  /* details */
+  details{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    margin:0 0 10px;overflow:hidden;
+  }
+  details[open]{border-color:#cfd7e4;}
+  summary{
+    cursor:pointer;list-style:none;
+    padding:12px 14px;
+    font-size:13.5px;font-weight:600;color:var(--navy);
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    background:#fff;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary .plus{
+    flex:0 0 auto;font-size:16px;line-height:1;color:var(--gold);
+    transition:transform .18s ease;
+  }
+  details[open] summary .plus{transform:rotate(45deg);}
+  details .body{padding:2px 14px 14px;}
+
+  /* tables */
+  .hint{
+    font-size:11.5px;color:var(--muted);margin:2px 0 6px;display:none;
+  }
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:8px;}
+  table{border-collapse:collapse;width:100%;min-width:520px;font-size:12.5px;line-height:1.6;background:#fff;}
+  th,td{border:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top;}
+  th{background:#f7f9fc;color:var(--navy);font-weight:700;white-space:nowrap;}
+  td.n{font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tbody tr:nth-child(even) td{background:#fcfdff;}
+
+  /* sources */
+  .src-line{
+    font-size:11.5px;line-height:1.65;color:var(--muted);
+    margin:8px 0 0;padding-top:7px;border-top:1px dashed #eef1f5;
+    word-break:break-all;
+  }
+  .src-line a{color:#25507f;text-decoration:none;border-bottom:1px dotted #9fb6cd;}
+  .src-line .lab{color:var(--navy);font-weight:600;margin-right:3px;}
+
+  .note{
+    font-size:12.5px;color:var(--ink-2);background:#fff;
+    border:1px solid var(--line);border-left:3px solid #b9c4d4;
+    border-radius:0 8px 8px 0;padding:10px 12px;margin:10px 0 0;
+  }
+  .note b{color:var(--navy);}
+  .quote{
+    font-size:12.5px;line-height:1.7;background:#f7f9fc;border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin:8px 0 0;color:var(--ink-2);
+  }
+
+  /* decision two-path */
+  .paths{display:grid;grid-template-columns:1fr;gap:10px;}
+  .path{border-radius:var(--radius);padding:13px 14px;border:1px solid;background:#fff;}
+  .path.yes{border-color:#c7d6e6;border-top:3px solid var(--navy);}
+  .path.no{border-color:#e0d3b3;border-top:3px solid var(--gold);}
+  .path h4{margin:0 0 6px;font-size:14px;color:var(--navy);}
+  .path ul{margin:0;padding-left:17px;font-size:12.8px;line-height:1.75;}
+  .path li{margin:3px 0;}
+
+  /* actions */
+  .act{border-left:3px solid var(--navy);background:#fff;border:1px solid var(--line);border-left-width:3px;border-radius:0 10px 10px 0;padding:11px 13px;margin:0 0 8px;}
+  .act .p{font-size:11px;font-weight:800;letter-spacing:.08em;color:var(--gold);}
+  .act h5{margin:2px 0 4px;font-size:13.5px;color:var(--navy);}
+  .act p{margin:0;font-size:12.8px;color:var(--ink-2);line-height:1.72;}
+
+  footer{
+    margin-top:34px;padding:22px 16px 30px;
+    background:var(--navy-3);color:rgba(255,255,255,.78);
+    text-align:center;font-size:11.5px;letter-spacing:.16em;
+  }
+  footer .motto{color:var(--gold-soft);font-size:12px;letter-spacing:.22em;margin-bottom:8px;}
+  footer .fin{letter-spacing:.04em;color:rgba(255,255,255,.5);font-size:11px;line-height:1.7;}
+
+  /* ===== Tablet / Desktop ===== */
+  @media (min-width:720px){
+    body{font-size:15.5px;}
+    .wrap{padding:0 24px 56px;}
+    header.hero{padding:46px 24px 34px;border-radius:0 0 18px 18px;}
+    .hero-inner{padding:0;}
+    h1{font-size:31px;line-height:1.36;}
+    .en{font-size:12px;}
+    .hero-lead{font-size:14.5px;}
+    .kpi{grid-template-columns:repeat(4,1fr);}
+    .kpi .kv-num{font-size:25px;}
+    .cards{grid-template-columns:1fr 1fr;}
+    .paths{grid-template-columns:1fr 1fr;}
+    .kv .row{grid-template-columns:86px 1fr;font-size:13.2px;}
+    .sec-title h2{font-size:19px;}
+    .num{font-size:30px;}
+    .summary{font-size:14px;padding:13px 16px;}
+    table{font-size:13px;}
+    .hint{display:block;}
+  }
+  @media (min-width:1024px){
+    .wrap{max-width:960px;}
+    header.hero{padding:56px 32px 40px;}
+    h1{font-size:34px;}
+    .cards{grid-template-columns:1fr 1fr;}
+  }
+  /* small phone tweaks */
+  @media (max-width:380px){
+    h1{font-size:20.5px;}
+    .kpi .kv-num{font-size:20px;}
+    .kv .row{grid-template-columns:70px 1fr;}
+    .kv .k{font-size:11.5px;}
+  }
+  @media print{
+    body{background:#fff;font-size:11pt;}
+    header.hero{background:#fff;color:#111;border-bottom:2px solid #1A2B4A;}
+    .nav{display:none;}
+    details{break-inside:avoid;}
+    .tw{overflow:visible;}
+    footer{background:#fff;color:#444;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand"><i></i><span>VD FIT产品团队 · 市场与行业情报</span></div>
+    <h1>2026年广交会（第140届）<br>大健康个护品类情报简报</h1>
+    <p class="en">Market and Industry Intelligence</p>
+    <div class="pills">
+      <span class="pill"><b>时间</b>2026-11-07</span>
+      <span class="pill"><b>届次</b>第140届（2026秋）</span>
+      <span class="pill"><b>板块</b>9 大板块</span>
+      <span class="pill"><b>用途</b>决策参考</span>
+      <span class="pill"><b>状态</b>初版</span>
+    </div>
+    <p class="hero-lead">覆盖 EMS 燃脂/塑形腰带、EMS 微电流美容仪（面部／头戴／颈部）、玻尿酸凝胶与面膜护肤耗材四条产品线；含第140届现场与出口数据，并单列第141届（2027春）申报节点。<b>参展与否尚待决定</b>，相关建议按“决策待定”处理，供管理层取舍。</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+<nav class="nav">
+  <a href="#s1">01 速览</a>
+  <a href="#s2">02 品类与展区</a>
+  <a href="#s3">03 外贸大盘</a>
+  <a href="#s4">04 竞品对标</a>
+  <a href="#s5">05 现场订单</a>
+  <a href="#s6">06 高端院线</a>
+  <a href="#s7">07 2027春展</a>
+  <a href="#s8">08 建议</a>
+  <a href="#s9">09 来源</a>
+</nav>
+
+<!-- ================= 01 ================= -->
+<section id="s1">
+  <div class="sec-head">
+    <div class="num">01</div>
+    <div class="sec-title">
+      <h2>本期速览</h2>
+      <p class="sub">四个数字看懂本届，五条判断决定下一步</p>
+    </div>
+  </div>
+
+  <div class="kpi">
+    <div class="k-item"><span class="kl">境外采购商</span><span class="kv-num">35.2万</span><span class="kd">219个国家，同比 +12.2%，创新高</span></div>
+    <div class="k-item"><span class="kl">现场意向成交</span><span class="kv-num">267.5亿</span><span class="kd">美元，意向口径而非最终履约</span></div>
+    <div class="k-item"><span class="kl">专业采购商占比</span><span class="kv-num">&gt;75%</span><span class="kd">头部采购企业 502 家</span></div>
+    <div class="k-item"><span class="kl">欧盟采购商</span><span class="kv-num">+38.2%</span><span class="kd">美国 +22.2%，一带一路 +16.6%</span></div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><b>客流与专业度双高。</b>219个国家和地区、35.2万名境外采购商到会（+12.2%），专业采购商超75%，欧盟、美国大幅回流——这是谈渠道、谈代工的一年，不是打品牌广告的一年。</li>
+      <li><b>EMS 微电流正处在监管洗牌后的上升通道。</b>射频类自2026年4月1日起按第三类医疗器械强制管理，全行业仅十余款持证；同期 LED 光疗与 EMS 微电流合计份额升至约七成。</li>
+      <li><b>腰带品类已被头部品牌重新定义。</b>SKG 把 EMS+TENS 双脉冲、3D 高频律动、五光谱、分区热敷与 App 课程做进同一条腰带，单“脉冲+发热”的产品会被直接比下去。</li>
+      <li><b>耗材与护肤是红海，只有绑定整机才有定价权。</b>导电凝胶 OEM 报价低至每支十几元、500 起订；面膜与护肤代工能力同样过剩。</li>
+      <li><b>参展决策仍待定，但窗口正在关闭。</b>第141届一般性展位申请于2026年11月30日截止，线上提交不等于获展位、且提前退展位不收费——可用极低成本先保留选项，年后再定。</li>
+    </ul>
+    <p class="src-line"><span class="lab">来源</span>
+      <a href="https://www.gov.cn/yaowen/liebiao/202611/content_7085131.htm">新华社／中国政府网（140届到会人数与成交）</a> ·
+      <a href="https://swt.hunan.gov.cn/swt/hnswt/85753/fdzdgknr/tzgg/202611/t20261106_34097039.html">湖南省商务厅（141届申报节点）</a>
+    </p>
+  </div>
+</section>
+
+<!-- ================= 02 ================= -->
+<section id="s2">
+  <div class="sec-head">
+    <div class="num">02</div>
+    <div class="sec-title">
+      <h2>我们的品类落在哪个展区</h2>
+      <p class="sub">四条产品线横跨“医疗器械”与“个人护理”两个相邻展区，展陈与话术必须分开设计</p>
+    </div>
+  </div>
+
+  <div class="badge-tbd">参展决策：待定（尚未决定是否参加第141届）</div>
+
+  <div class="summary">
+    <ul>
+      <li>第三期（10/31–11/4）官方题材含<b>医药保健品及医疗器械、个人护理用具、浴室用品、体育及旅游休闲、智慧医疗</b>等，正对我们的产品线。</li>
+      <li>整机类（腰带、美容仪）适合走<b>医药保健品及医疗器械展区</b>；若产品符合“智能按摩及理疗／智能可穿戴”，还可申报<b>智慧医疗专区（D区友谊大厅 21.2）</b>，评审入选免展位费。</li>
+      <li>凝胶耗材属配件／耗材属性，面膜护肤属<b>个人护理用具</b>——这两条线单独硬碰会被白牌价格战吃掉。</li>
+    </ul>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h4>EMS 燃脂／塑形腰带</h4>
+      <p class="lead-line">本届该展区的供给以 TENS/EMS 代工厂与康复设备商为主，品牌化整机偏少。</p>
+      <div class="kv">
+        <div class="row"><span class="k">对应展区</span><span class="v">医药保健品及医疗器械；可申报智慧医疗专区“智能按摩及理疗／智能可穿戴”</span></div>
+        <div class="row"><span class="k">本届样本</span><span class="v">OFAN（广州奥方）展位 9.2J26，主打 HI-EMS、PEMF、盆底、冲击波</span></div>
+        <div class="row"><span class="k">若参展</span><span class="v">打“整机品牌 + ODM 双身份”，同馆既能接渠道也能接贴牌</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://www.ofanbelleza.com/info-detail/ofan-140th-canton-fair-2026-booth-9-2j26">OFAN 参展公告（140届 9.2J26）</a></p>
+    </div>
+
+    <div class="card">
+      <h4>EMS 微电流美容仪（手持／头戴／颈纹）</h4>
+      <p class="lead-line">代工侧主流形态已是“多模态一体机”，单一功能机在货架上缺乏解释力。</p>
+      <div class="kv">
+        <div class="row"><span class="k">对应展区</span><span class="v">医药保健品及医疗器械；智慧医疗专区</span></div>
+        <div class="row"><span class="k">本届样本</span><span class="v">OSTO（深圳奥斯拓）上届展位 9.2E26-27，其 LED 美容仪即 LED+微电流+射频+超声四合一</span></div>
+        <div class="row"><span class="k">若参展</span><span class="v">以“非射频、非医疗器械”路线切入，主打 EMS+光疗+可穿戴，颈纹做专用导头</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://www.ostomedica.com/meet-osto-at-the-139th-canton-fair-smart-solutions-for-pain-relief-recovery-beauty.html">OSTO 参展公告（139届 9.2E26-27）</a></p>
+    </div>
+
+    <div class="card">
+      <h4>玻尿酸凝胶（配套耗材）</h4>
+      <p class="lead-line">OEM 极度分散、无品牌溢价，报价与起订量都已压到地板。</p>
+      <div class="kv">
+        <div class="row"><span class="k">对应展区</span><span class="v">医药保健品及医疗器械（配件／耗材）；个人护理用具</span></div>
+        <div class="row"><span class="k">价格带</span><span class="v">射频／微电流／冷却凝胶约 ¥1.3–30 一支，起订 500–5000</span></div>
+        <div class="row"><span class="k">产地集中</span><span class="v">广州、江苏、陕西</span></div>
+        <div class="row"><span class="k">若参展</span><span class="v">只作为整机的“专用耗材”展示，不做独立报价竞争</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://chinese.alibaba.com/g/rf-lifting-gel.html">阿里巴巴中国站：射频／微电流导电凝胶供应页</a></p>
+    </div>
+
+    <div class="card">
+      <h4>面膜／护肤／少量彩妆</h4>
+      <p class="lead-line">产业带代工能力过剩，单品类几乎没有议价空间。</p>
+      <div class="kv">
+        <div class="row"><span class="k">对应展区</span><span class="v">个人护理用具；浴室用品</span></div>
+        <div class="row"><span class="k">产业底数</span><span class="v">花都一地 360 余家化妆品厂、备案产品 30 万件、3000 余个品牌</span></div>
+        <div class="row"><span class="k">若参展</span><span class="v">做“仪器后／居家修护”套组，用仪器带护肤，而非单品硬碰</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://gzdaily.dayoo.com/h5/html5/2026-11/05/content_871_917168.htm">广州日报（花都美妆产业与对接会）</a></p>
+    </div>
+  </div>
+
+  <details>
+    <summary><span>智慧医疗专区：规则与门槛</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <div class="kv">
+        <div class="row"><span class="k">位置</span><span class="v">广交会展馆 D区友谊大厅（21.2），与第三期同步</span></div>
+        <div class="row"><span class="k">展品范围</span><span class="v">医疗机器人、智能诊断及治疗产品、智能可穿戴设备、<b>智能按摩及理疗产品</b>、智能康复护理产品、智能监测产品</span></div>
+        <div class="row"><span class="k">展位与费用</span><span class="v">全部光地，每家企业原则上不少于 2 个展位（18㎡）；评审入选<b>免收展位费</b>，自行特装</span></div>
+        <div class="row"><span class="k">申报条件</span><span class="v">研发创新实力强、发展潜力大或品牌知名度高（三者之一），<b>暂不作出口额限制</b></span></div>
+        <div class="row"><span class="k">140届截止</span><span class="v">2026年6月10日（第141届安排尚未发布，见第07节）</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://sw.gz.gov.cn/xxgk/tzgg/tz/content/post_10830836.html">广州市商务局：第140届服务机器人、时尚饰品、智慧医疗专区展位申请通知</a></p>
+    </div>
+  </details>
+
+  <p class="note"><b>口径说明</b>：本节所列展商取自企业自行公开的参展信息（OFAN 为本届、OSTO 为上届），用于判断展区供给形态，<b>不代表展区全貌</b>；完整名录需以广交会官方展商名录逐条核对。</p>
+</section>
+
+<!-- ================= 03 ================= -->
+<section id="s3">
+  <div class="sec-head">
+    <div class="num">03</div>
+    <div class="sec-title">
+      <h2>外贸与市场大盘</h2>
+      <p class="sub">三条曲线：按摩器具量增价跌、医疗器械两位数增长、化妆品出口逼近三成</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><b>按摩保健器具：</b>上半年出口22.37亿美元（+5.9%），数量+11.2%、单价−4.8%，是典型的“以价换量”；<b>欧盟是唯一“量减价升”的市场</b>（金额+12.6%、单价+12.8%）。</li>
+      <li><b>医疗器械：</b>上半年出口271亿美元（+12.4%），进口154.6亿美元（−9%），顺差116.4亿美元，五大类全部增长。</li>
+      <li><b>化妆品与个护：</b>上半年出口45.77亿美元（+28.4%），出口量93.23万吨（+33.1%）；内销限额以上化妆品零售仅+6.3%，<b>外热内温</b>。</li>
+    </ul>
+  </div>
+
+  <div class="kpi">
+    <div class="k-item"><span class="kl">按摩器具出口</span><span class="kv-num">22.37亿</span><span class="kd">美元 · 同比 +5.9%</span></div>
+    <div class="k-item"><span class="kl">出口单价</span><span class="kv-num">−4.8%</span><span class="kd">数量却 +11.2%</span></div>
+    <div class="k-item"><span class="kl">医疗器械出口</span><span class="kv-num">271亿</span><span class="kd">美元 · 同比 +12.4%</span></div>
+    <div class="k-item"><span class="kl">化妆品出口</span><span class="kv-num">45.77亿</span><span class="kd">美元 · 同比 +28.4%</span></div>
+  </div>
+
+  <details open>
+    <summary><span>分市场量价：欧洲能提价，美国最能走量</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <p class="hint">表格可左右滑动查看 →</p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>市场</th><th>出口额</th><th>金额同比</th><th>单价同比</th></tr></thead>
+          <tbody>
+            <tr><td>全球</td><td class="n">22.37 亿美元</td><td class="n">+5.9%</td><td class="n">−4.8%</td></tr>
+            <tr><td>美国（占27.7%）</td><td class="n">6.2 亿美元</td><td class="n">+9.1%</td><td class="n">−6.7%</td></tr>
+            <tr><td>欧盟</td><td class="n">4.65 亿美元</td><td class="n">+12.6%</td><td class="n">+12.8%</td></tr>
+            <tr><td>俄罗斯</td><td class="n">0.9 亿美元</td><td class="n">+57.5%</td><td class="n">—</td></tr>
+            <tr><td>韩国</td><td class="n">1.82 亿美元</td><td class="n">−0.3%</td><td class="n">−15.2%</td></tr>
+            <tr><td>日本</td><td class="n">1.17 亿美元</td><td class="n">−17.2%</td><td class="n">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="http://www.cccmhpie.org.cn/newsinfo/11302440.html">中国医药保健品进出口商会：2026年上半年按摩保健器具出口简析</a></p>
+      <p class="note">细分国别：德国+14.4%、法国+30.2%、波兰+28%、西班牙+23.3%；印度+32.9%、墨西哥+3.9%。美国仍是第一大市场，但单价降幅最大，价格战最凶。</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>家用美容仪：监管把行业切成两半</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <p style="font-size:13px;color:#3f4b5d;margin:0 0 8px;">射频治疗仪、射频皮肤治疗仪自<b>2026年4月1日</b>起按第三类医疗器械管理，未取证不得生产、进口和销售；截至2026年4月仅约13款持证，7月公开报道增至17款，其中可用于家庭场景的仅5款。</p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>技术路线</th><th>2025 销售额</th><th>2026 预测</th><th>监管路径</th></tr></thead>
+          <tbody>
+            <tr><td>射频类</td><td class="n">15.2 亿元</td><td class="n">12.7 亿元</td><td>三类械强制，白牌退市</td></tr>
+            <tr><td>LED 光疗类</td><td class="n">32.1 亿元</td><td class="n">36.5 亿元</td><td>非械路径，2025年 +64.2%</td></tr>
+            <tr><td>EMS 微电流类</td><td class="n">28.9 亿元</td><td class="n">32.4 亿元</td><td>非械路径，2025年 +51.3%</td></tr>
+            <tr><td>LED+EMS 占比</td><td class="n">69.8%</td><td class="n">70.3%</td><td>2023年仅 31.5%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://stcn.com/article/detail/3739172.html">证券时报（射频三类械强监管）</a> ·
+        <a href="http://www.mztoutiao.com/index/index/wenzhang.html?id=4342">美妆头条（持证清单与品牌分化）</a> ·
+        <a href="http://www.docin.com/touch_new/preview_new.do?id=4981953185">第三方研究报告（技术路线规模）</a>
+      </p>
+      <p class="note"><b>口径提醒</b>：规模与份额数据来自第三方研究机构测算，与海关、协会统计不是同一口径，仅用于判断结构方向 <span class="tag t-3rd">三方口径</span>。</p>
+    </div>
+  </details>
+
+  <p class="note"><span class="tag t-judge">判断</span>　监管不是在打压行业，而是在把行业从低价带赶到持证品牌带。做 EMS 微电流恰好避开三类证的硬门槛，但要守住两点：不得宣称医疗、治疗功效；进入美国市场需评估 EMS/TENS 是否按器械管理及 510(k) 路径。</p>
+</section>
+
+<!-- ================= 04 ================= -->
+<section id="s4">
+  <div class="sec-head">
+    <div class="num">04</div>
+    <div class="sec-title">
+      <h2>竞品与对标</h2>
+      <p class="sub">谁在定义我们的货架：SKG 定腰带，极萌与觅光定面部，代工厂定成本下限</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><b>SKG：</b>2026年初推出 Q7 Ultra 健腹仪，EMS+TENS 双脉冲、3D 离心律动、五光谱、分区热敷、App 课程一体化；同时以1554项专利与牵头行业标准构建话语权。</li>
+      <li><b>极萌：</b>“三头分护”硬件方案（瘦脸／黄金微脉冲／全能焕肤），2026 新品水光美容仪 Pro，主打负压透皮。</li>
+      <li><b>觅光：</b>“仪器+成分”闭环（胶原炮二代、超声蛋、面罩、水光炮 + 面膜精华），但线上销售额已连续两年下滑，近期获地方产业基金融资。</li>
+      <li><b>代工侧：</b>OFAN、OSTO 这类厂商把“认证文件+低起订”当卖点，整机制造几乎无壁垒。</li>
+      <li><b>头部品牌未以品牌身份出现在广交会</b>（未检索到公开参展信息），展会供给以代工与康复设备商为主——这意味着“品牌位”仍是空位。</li>
+    </ul>
+  </div>
+
+  <details open>
+    <summary><span>SKG 腰带参数：我们应当对齐的“及格线”</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <p class="hint">表格可左右滑动查看 →</p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>维度</th><th>Q7 Ultra 健腹仪</th><th>G7 Ultra 按摩腰带</th></tr></thead>
+          <tbody>
+            <tr><td>技术</td><td>EMS+TENS 双脉冲 + 3D 离心律动（1225 rpm）+ 五光谱 + 热敷</td><td>3000Hz 中频脉冲 + 8 按摩头（8000次/分）+ 红光热灸</td></tr>
+            <tr><td>作用面积</td><td>热区 12,500 mm²</td><td>脉冲区 5,140 mm²</td></tr>
+            <tr><td>温控</td><td>38 / 40 / 43℃ 三档</td><td>热敷 + 红光双加热</td></tr>
+            <tr><td>电极与适配</td><td>4 枚 99% 钛电极；腰围 70–122cm</td><td>轻薄隐形穿戴</td></tr>
+            <tr><td>续航/噪音</td><td>约 650g；≥90 分钟；≤30dB；USB-C</td><td>2450mAh，约 4 天</td></tr>
+            <tr><td>智能化</td><td>SKG Health App：课程库、光/热调节</td><td>App 14 手法 / 9 档，可在线升级</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://www.skginno.com/ems-centrifuge-vibration-abs-workout-belt.html">SKG INNO：Q7 Ultra 产品页</a> ·
+        <a href="https://skgvietnam.com/may-massage-lung/dai-tap-bung-skg-qs700-ultra.html">SKG 越南：QS700 Ultra 完整参数</a> ·
+        <a href="http://cn.skg.com/product/675722644078661">SKG 官网：G7 腰带</a>
+      </p>
+      <div class="quote">对齐建议：EMS+TENS 双通道 · 红光／近红外 · 分区热敷三档 · 钛电极 · 腰围 70–122cm · ≤30dB · ≥90min · App 课程库。<br>差异化方向：产后修复、运动恢复、久坐办公三个场景，以及更轻、更隐形、可外穿的形态。</div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://cn.skg.com/news/skg-news-4">SKG：2026 亚太媒体高端论坛（专利1554项、牵头 QB/T 8100—2024、海外主体布局）</a></p>
+    </div>
+  </details>
+
+  <div class="cards">
+    <div class="card">
+      <h4>极萌 Jmoon：硬件分护</h4>
+      <div class="kv">
+        <div class="row"><span class="k">结构</span><span class="v">三头分护：瘦脸导头（EMS 提拉波+双层溶脂）、黄金微脉冲（皮下 1.98mm）、全能焕肤（烟酰胺+复合酸／类肉毒波／细胞波）</span></div>
+        <div class="row"><span class="k">2026 新品</span><span class="v">水光美容仪 Pro，负压透皮无创水光，港区定价 HK$3,399</span></div>
+        <div class="row"><span class="k">背书</span><span class="v">宣称 FDA／CE／MFDS 等 30 余项国际认证；深圳+首尔双研发中心；35 城线下与免税店</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://finance.sina.com.cn/tech/roll/2026-09-30/doc-initqkpm2277471.shtml">新浪科技（三头分护结构）</a> ·
+        <a href="https://jmoon.com.hk/">极萌香港官网（水光美容仪 Pro）</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>觅光 AMIRO：仪器+成分闭环</h4>
+      <div class="kv">
+        <div class="row"><span class="k">产品线</span><span class="v">胶原炮二代大师版（48 极点阵+四色分区面膜）、超声蛋（5W／4.5mm）、大排灯 Max、彩虹光面罩、水光炮</span></div>
+        <div class="row"><span class="k">耗材联动</span><span class="v">配套精华、面膜、医用无菌敷贴，形成“仪器+成分”复购</span></div>
+        <div class="row"><span class="k">经营</span><span class="v">线上销售额：2024 年 2.55 亿 → 2025 年 0.70 亿 → 2026 年至今约 0.30 亿，连续下滑；近期获地方产业基金 D+ 轮</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://www.amiro.com.cn/product">觅光官网产品矩阵</a> ·
+        <a href="http://www.mztoutiao.com/index/index/wenzhang.html?id=4342">美妆头条（销售与融资）</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>代工侧：OFAN 与 OSTO</h4>
+      <div class="kv">
+        <div class="row"><span class="k">OFAN</span><span class="v">2008 年起，140届展位 9.2J26；HI-EMS、PEMF、盆底、冲击波、美容与康复设备；招 OEM/ODM</span></div>
+        <div class="row"><span class="k">OSTO</span><span class="v">18 年以上，139届展位 9.2E26-27；TENS/EMS/按摩/光疗；10,000㎡ 厂区；ISO13485、BSCI、MDR、FDA 510(k)、TGA</span></div>
+        <div class="row"><span class="k">含义</span><span class="v">整机制造壁垒极低；真正的壁垒是认证组合、配方与品牌</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://www.ofanbelleza.com/info-detail/ofan-140th-canton-fair-2026-booth-9-2j26">OFAN 参展公告</a> ·
+        <a href="https://www.ostomedica.com/meet-osto-at-the-139th-canton-fair-smart-solutions-for-pain-relief-recovery-beauty.html">OSTO 参展公告</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>营销动作的四个共同点</h4>
+      <div class="kv">
+        <div class="row"><span class="k">认证</span><span class="v">把 FDA／CE／MFDS／三类证 当作传播资产，而非合规附件</span></div>
+        <div class="row"><span class="k">医研</span><span class="v">与医院、研究院联合出数据，用“临床/实验”替代“感受”</span></div>
+        <div class="row"><span class="k">渠道</span><span class="v">高端商场、免税店、线下体验，对冲线上流量成本</span></div>
+        <div class="row"><span class="k">展会</span><span class="v">主战场在美妆展与国际消费电子展，而非广交会</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://cn.skg.com/news/skg-news-4">SKG</a> · <a href="https://finance.sina.com.cn/tech/roll/2026-09-30/doc-initqkpm2277471.shtml">极萌（米兰设计周、拉斯维加斯美容展）</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 ================= -->
+<section id="s5">
+  <div class="sec-head">
+    <div class="num">05</div>
+    <div class="sec-title">
+      <h2>现场订单与对接成效</h2>
+      <p class="sub">分品类成交数据极少，但“展外对接”的效率已经给出答案</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><b>花都美妆供采对接会（11月3日）：</b>37 家本地企业与 51 名东南亚、中东、欧洲采购商对接，现场意向采购 <b>2981 万美元</b>，较 2026 年春季专场增长 77%（春季为 1683 万美元）。</li>
+      <li>洽谈后企业直接把客商从展台带进车间看研发、灌装、品控——<b>“看厂”是转化关键动作</b>。</li>
+      <li>本届未公开分品类的现场成交统计，除花都专场外无可核实金额。</li>
+    </ul>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h4>花都美妆专场</h4>
+      <div class="kv">
+        <div class="row"><span class="k">规模</span><span class="v">37 家企业 × 51 名采购商，每桌 3–4 轮洽谈</span></div>
+        <div class="row"><span class="k">成交</span><span class="v">意向 2981 万美元，同比 +77%</span></div>
+        <div class="row"><span class="k">底数</span><span class="v">360+ 化妆品厂、规上 97 家、备案 30 万件、出口 113 国、出口额年均 +35.7%</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://gzdaily.dayoo.com/h5/html5/2026-11/05/content_871_917168.htm">广州日报</a> ·
+        <a href="https://huacheng.gz-cmc.com/pages/2026/11/04/63038332caf74a088a490894ce9baca0.html">广州日报新花城</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>两个现场样本</h4>
+      <div class="kv">
+        <div class="row"><span class="k">卓芬香氛</span><span class="v">开展首日中东客户已贡献数万美元意向，靠“气味匹配度”而非外观</span></div>
+        <div class="row"><span class="k">欣锐护肤</span><span class="v">冰沙系列受中东、南美欢迎，单价 1–2 美元；2006 年起连续参展</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://www.gz.gov.cn/zt/zgjckspjyh/xczj/content/post_11080456.html">广州市人民政府：第140届第三期开幕现场报道</a></p>
+    </div>
+
+    <div class="card">
+      <h4>面膜 ODM 龙头（上届）</h4>
+      <div class="kv">
+        <div class="row"><span class="k">诺斯贝尔</span><span class="v">双展位，面膜／湿巾／卸妆／底妆／护肤全品类；近三年年均研发投入超 8000 万元、180 人团队</span></div>
+        <div class="row"><span class="k">含义</span><span class="v">代工龙头已把“研发”做成展陈语言，单纯报产能没有说服力</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://henan.china.com/m/news/roll/2026/0506/052026_725093.html">中华网：诺斯贝尔参展报道（139届）</a></p>
+    </div>
+  </div>
+
+  <p class="note"><span class="tag t-judge">判断</span>　本届采购商结构（欧盟+38.2%、美国+22.2%、专业采购商超75%）决定了现场最有效的动作是<b>一对一预约洽谈 + 工厂考察</b>，而不是大展台静态陈列。若将来参展，应把“到厂看线”写进邀约话术。</p>
+</section>
+
+<!-- ================= 06 ================= -->
+<section id="s6">
+  <div class="sec-head">
+    <div class="num">06</div>
+    <div class="sec-title">
+      <h2>高端医疗健康院线产品</h2>
+      <p class="sub">次要板块：只作技术背书与联合项目资源，不作为主攻方向</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li>国产院线设备已进入“持证 + 标准出海”阶段：半岛医疗大超炮拿下国内首个聚焦超声皮肤治疗仪三类证，逆时针成为国产首个 NMPA+FDA 双认证射频皮肤治疗仪。</li>
+      <li>对我们的用法不是“做设备”，而是<b>做联合项目</b>：与持证机构设计“院线治疗 + 居家 EMS/光疗维持”套餐。</li>
+      <li>广交会侧对应供给是智慧医疗专区的六大类展品，以及 OFAN 这类覆盖 HI-EMS、PEMF、盆底、冲击波的院线／康复设备商。</li>
+    </ul>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h4>半岛大超炮（聚焦超声）</h4>
+      <div class="kv">
+        <div class="row"><span class="k">资质</span><span class="v">国内首个获 NMPA 三类证的聚焦超声皮肤治疗仪（2025 年 9 月获批）</span></div>
+        <div class="row"><span class="k">参数</span><span class="v">最大功率 10W、最高 35Hz、5 种治疗头</span></div>
+        <div class="row"><span class="k">临床</span><span class="v">204 例多中心研究，面颈部松弛改善有效率超 82%，3 个月满意率 88% 以上</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://www.peninsula-med.com/product/details_487_1641.html">半岛医疗：两款三类证新品</a> ·
+        <a href="https://www.peninsula-med.com/bandaodachaopao.html">大超炮产品页</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>半岛逆时针（射频微针）</h4>
+      <div class="kv">
+        <div class="row"><span class="k">资质</span><span class="v">国产首个 NMPA + FDA 双认证射频皮肤治疗仪（2025 年 11 月获批三类证）</span></div>
+        <div class="row"><span class="k">参数</span><span class="v">0.2ms 脉冲串、0.15mm 针体、动态分层 1–5 层</span></div>
+        <div class="row"><span class="k">临床</span><span class="v">瘢痕改善有效率超 96%，满意度近 98%</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://www.peninsula-med.com/product/details_487_1641.html">半岛医疗发布会报道</a></p>
+    </div>
+
+    <div class="card">
+      <h4>产业侧信号</h4>
+      <div class="kv">
+        <div class="row"><span class="k">研发</span><span class="v">与 152 家医院长期临床合作，研发团队超 400 人，年研发投入逾 4 亿元，聚焦超声中美专利 150 余项</span></div>
+        <div class="row"><span class="k">路径</span><span class="v">“产品出海 → 医生出海 → 标准出海”三层递进</span></div>
+        <div class="row"><span class="k">修复</span><span class="v">白极光 590nm+830nm 联合光调，用于术后修复</span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span><a href="https://www.peninsula-med.com/product/details_487_1735.html">半岛医疗：“标准出海”报道</a></p>
+    </div>
+  </div>
+
+  <p class="note"><span class="tag t-judge">判断</span>　“院线治疗 + 居家维持”是现成的商业范式，且不需要我们自建三类证设备。可作为与医美机构的联合项目切入，输出家用 EMS／光疗设备与修护耗材。</p>
+</section>
+
+<!-- ================= 07 ================= -->
+<section id="s7">
+  <div class="sec-head">
+    <div class="num">07</div>
+    <div class="sec-title">
+      <h2>2027 春季展（第141届）：时间表与申报节点</h2>
+      <p class="sub">申请已于 2026 年 11 月启动，一般性展位 11 月 30 日截止——比“是否参展”的决策更早到来</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><b>时间：</b>2027/4/15–19（一期 先进制造）、4/23–27（二期 品质家居）、5/1–5（三期 美好生活）。</li>
+      <li><b>展区：</b>暂按 54 个展区（13 大板块）；我们对应的医药保健品及医疗器械、个人护理用具仍在第三期。</li>
+      <li><b>节点：</b>品牌展位动态调整 11/10 前、品牌展位确认 11/20、一般性展位申请 <b>11/30</b>。</li>
+      <li><b>智慧医疗专区：</b>截至本简报发布，第141届专区申报尚未发布专文（历届均为“另文通知”）。</li>
+    </ul>
+  </div>
+
+  <div class="kpi">
+    <div class="k-item"><span class="kl">一期</span><span class="kv-num">4/15–19</span><span class="kd">先进制造</span></div>
+    <div class="k-item"><span class="kl">二期</span><span class="kv-num">4/23–27</span><span class="kd">品质家居</span></div>
+    <div class="k-item"><span class="kl">三期</span><span class="kv-num">5/1–5</span><span class="kd">美好生活（我们的展期）</span></div>
+    <div class="k-item"><span class="kl">一般性展位截止</span><span class="kv-num">11/30</span><span class="kd">2026 年，距发布日 23 天</span></div>
+  </div>
+
+  <details open>
+    <summary><span>申请节点与关键规则</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <div class="tw">
+        <table>
+          <thead><tr><th>事项</th><th>时间</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>品牌展位动态调整申请</td><td class="n">2026-11-10 前</td><td>仅涉及退回/收回的品牌展位调整</td></tr>
+            <tr><td>品牌展位确认</td><td class="n">2026-11-20 前</td><td>第140届品牌展位参展企业确认数量，逾期视为放弃</td></tr>
+            <tr><td>一般性展位申请</td><td class="n">2026-11-30 前</td><td>系统提交 + 向所属交易团报送纸质材料</td></tr>
+            <tr><td>申请渠道</td><td class="n">唯一官方</td><td>广交会“参展易捷通” exhibitor.cantonfair.org.cn</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://swt.hunan.gov.cn/swt/hnswt/85753/fdzdgknr/tzgg/202611/t20261106_34097039.html">湖南省商务厅：第141届出口展位申请通知（2026-11-06）</a> ·
+        <a href="https://m.jfdaily.com/sgh/detail?id=4088781">上观新闻：第141届组展工作启动（2026-11-05）</a> ·
+        <a href="https://www.cantonfair.org.cn/m/exhibitor">广交会官网通知公告（会业字〔2026〕384号）</a>
+      </p>
+      <p class="note"><b>两个容易被忽略的规则：</b>① 线上提交成功<b>不等于获得展位</b>，展位由评审与交易团安排决定；② 退展位实行阶梯收费——展区展位位置预置截止后第二天（含）之前退展位不收费，之后至开幕前一天收一半，开幕后收全额。</p>
+      <p class="src-line"><span class="lab">来源</span><a href="http://sw.gz.gov.cn/ztzl/hzcj/gjh/139j/content/post_10551420.html">广州市商务局：第139届出口展展位申报通知（退展位机制与“线上≠获展位”表述）</a></p>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>智慧医疗专区：往届节奏可作为排期参照</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <div class="kv">
+        <div class="row"><span class="k">139届</span><span class="v">2025-12-17 发布专区通知，2026-01-09 截止；三期 5/1–5 展示，D区友谊大厅</span></div>
+        <div class="row"><span class="k">140届</span><span class="v">2026-06-10 截止；三期 10/31–11/4 展示</span></div>
+        <div class="row"><span class="k">141届</span><span class="v">截至 2026-11-07 尚未见专文，需持续关注所属交易团通知 <span class="tag t-check">待发布</span></span></div>
+      </div>
+      <p class="src-line"><span class="lab">来源</span>
+        <a href="https://www.zs.gov.cn/swj/gggs/content/post_2575266.html">中山市商务局：第139届专区申请通知</a> ·
+        <a href="https://sw.gz.gov.cn/xxgk/tzgg/tz/content/post_10830836.html">广州市商务局：第140届专区申请通知</a>
+      </p>
+    </div>
+  </details>
+
+  <div class="paths">
+    <div class="path yes">
+      <h4>若决定参展</h4>
+      <ul>
+        <li>身份：<b>整机品牌 + ODM 双身份</b>，同馆既接渠道也接贴牌</li>
+        <li>位置：9.2 医药保健品及医疗器械 + 21.2 智慧医疗专区（评审入选免展位费）</li>
+        <li>动作：提前预约欧美渠道商一对一；展后请客商进厂看线</li>
+        <li>前提：11/30 前完成一般性展位申请与纸质材料</li>
+      </ul>
+    </div>
+    <div class="path no">
+      <h4>若暂不参展</h4>
+      <ul>
+        <li>线上：广交会线上平台与 APP 常态化运营，可上传产品、接询盘</li>
+        <li>名录：以官方展商名录做定向触达，约目标采购商到厂</li>
+        <li>替代：把预算转向美妆展／消费电子展与跨境平台直发</li>
+        <li>保留：仍建议先提交申请占位，预置前退展位不收费</li>
+      </ul>
+    </div>
+  </div>
+
+  <details>
+    <summary><span>若参展：备展清单（8 项）</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <div class="kv">
+        <div class="row"><span class="k">资质</span><span class="v">营业执照、商标、专利清单；CE／FCC／RoHS／ISO13485（按目标市场）</span></div>
+        <div class="row"><span class="k">材料</span><span class="v">英文规格书（功率、频率、面积、噪音、续航、尺码）；OEM/ODM 报价阶梯与 MOQ</span></div>
+        <div class="row"><span class="k">展陈</span><span class="v">可穿戴体验台、App 实时数据大屏、颈纹专用导头演示</span></div>
+        <div class="row"><span class="k">合规</span><span class="v">宣称审核表（禁用医疗／治疗表述）、目标市场准入声明</span></div>
+        <div class="row"><span class="k">样品</span><span class="v">欧规／美规／英规插头各一套；耗材套装样品</span></div>
+        <div class="row"><span class="k">客户</span><span class="v">预约名单：欧盟、俄罗斯、印度、中东优先</span></div>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ================= 08 ================= -->
+<section id="s8">
+  <div class="sec-head">
+    <div class="num">08</div>
+    <div class="sec-title">
+      <h2>建议</h2>
+      <p class="sub">在“参展待定”前提下，先做不依赖参展决策的事</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li>合规与宣称是 P0，与是否参展无关，且直接影响海外能否上架。</li>
+      <li>产品参数对齐是 P0，竞争已经发生在参数层面，不是展会层面。</li>
+      <li>参展是 P1 的机会项，可用“低成本保留选项”处理，不必现在二选一。</li>
+    </ul>
+  </div>
+
+  <div class="act"><div class="p">P0 · 合规与宣称</div><h5>先把“能说什么”定下来</h5>
+    <p>全线产品统一“非医疗器械”表述边界，禁用“治疗／医疗级／替代医美”类措辞；美国市场就 EMS/TENS 是否需 510(k) 做一次法规评估；欧盟按 MDR/CE 梳理技术文件。</p></div>
+
+  <div class="act"><div class="p">P0 · 腰带升级</div><h5>把“单功能腰带”推到“多模态穿戴”</h5>
+    <p>对齐 EMS+TENS 双通道、红光／近红外、分区热敷三档、钛电极、腰围 70–122cm、≤30dB、≥90min、App 课程库；用产后修复／运动恢复／久坐三场景做区隔。</p></div>
+
+  <div class="act"><div class="p">P1 · 美容仪差异化</div><h5>把“颈纹”做成独立品类入口</h5>
+    <p>颈纹独立导头 + 独立模式 + 配套颈膜；头戴式主打“免手持、可做家务时使用”，避开与面罩类正面比能量。</p></div>
+
+  <div class="act"><div class="p">P1 · 耗材闭环</div><h5>用专用耗材锁住复购</h5>
+    <p>玻尿酸凝胶做专用接口 + 配方编号 + 批次追溯，只保自家仪器兼容；定价走“仪器+3 支凝胶”套装与季度订阅；面膜做“术后／居家修护”联名套组。</p></div>
+
+  <div class="act"><div class="p">P1 · 参展机会（待定）</div><h5>先占位，后决策</h5>
+    <p>一般性展位申请 11/30 截止、线上提交不等于获展位、预置前退展位不收费——建议先完成申请保留选项；若最终参展，走“9.2 整机 + 21.2 智慧医疗专区”双身份路线。若决定不参展，则在 12 月内明确放弃并转向线上平台与定向客户邀约。</p></div>
+
+  <div class="act"><div class="p">P2 · 市场分层</div><h5>欧洲提价，俄印放量，日本收缩</h5>
+    <p>欧洲是唯一“量减价升”市场，做品牌化与提价；俄罗斯（+57.5%）、印度（+32.9%）做放量款；中东、南美做配方与香型定制；美国以成本与合规双控应对价格战。</p></div>
+
+  <div class="act"><div class="p">P2 · 渠道结构</div><h5>跨境直发 + 本地主体</h5>
+    <p>行业跨境平台直发占比已达 57.6%；参照 SKG 在新加坡、美国、荷兰设运营主体，做本地化服务与售后。</p></div>
+
+  <div class="act"><div class="p">P3 · 院线联动</div><h5>用院线信任给家用产品背书</h5>
+    <p>与持证医美机构谈“院线疗程 + 居家维持”套餐，输出家用 EMS／光疗设备与修护耗材；不涉足三类设备生产。</p></div>
+</section>
+
+<!-- ================= 09 ================= -->
+<section id="s9">
+  <div class="sec-head">
+    <div class="num">09</div>
+    <div class="sec-title">
+      <h2>待核实事项与来源</h2>
+      <p class="sub">以下 6 条尚无公开可查证据，定稿前需补证</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li><span class="tag t-check">待核实</span> 觅光、极萌、雅萌、初普等头部品牌是否以品牌身份参加第140届。</li>
+      <li><span class="tag t-check">待核实</span> 第140届智慧医疗专区完整展商名单与展位数（官方无可检索名录）。</li>
+      <li><span class="tag t-check">待核实</span> 第三期“个人护理用具”展区具体馆号排布（9.1 馆有包材企业佐证，未获官方展区图确认）。</li>
+      <li><span class="tag t-check">待核实</span> 本届分品类现场成交金额（仅花都专场有公开数据）。</li>
+      <li><span class="tag t-check">待核实</span> 第141届是否继续设立智慧医疗专区、申报截止时间（尚未发布专文）。</li>
+      <li><span class="tag t-check">待核实</span> 市场规模与份额数据均为第三方研究口径，不可与海关、协会口径混用。</li>
+    </ul>
+  </div>
+
+  <details>
+    <summary><span>来源清单（44 条，点击可回溯）</span><span class="plus">＋</span></summary>
+    <div class="body">
+      <div class="src-line">
+        <b>一、第140届展会与官方规则</b><br>
+        1. 新华社／中国政府网：第140届广交会共吸引35.2万名境外采购商到会 — <a href="https://www.gov.cn/yaowen/liebiao/202611/content_7085131.htm">链接</a><br>
+        2. 央视新闻：现场意向出口成交额267.5亿美元 — <a href="http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17057181096364990009">链接</a><br>
+        3. 广东省人民政府：超3.2万家企业携488万件展品亮相 — <a href="http://www.gd.gov.cn/gdywdt/ydylygd/content/mpost_4975995.html">链接</a><br>
+        4. 商务部：第140届广交会情况介绍与展览排期 — <a href="https://www.mofcom.gov.cn/zwjg/jmxw/md/art/2026/art_784ba2c67efa4c66b430a26ad084ade8.html">链接</a><br>
+        5. 广州市商务局：第140届智慧医疗等专区展位申请通知 — <a href="https://sw.gz.gov.cn/xxgk/tzgg/tz/content/post_10830836.html">链接</a><br>
+        6. 广交会官网首页（141届排期） — <a href="https://www.cantonfair.org.cn/m/">链接</a><br>
+        7. 广州市人民政府：第140届第三期开幕现场报道 — <a href="https://www.gz.gov.cn/zt/zgjckspjyh/xczj/content/post_11080456.html">链接</a><br>
+        8. 广州日报：花都美妆对接会意向近3000万美元 — <a href="https://gzdaily.dayoo.com/h5/html5/2026-11/05/content_871_917168.htm">链接</a><br>
+        9. 广州日报新花城：意向采购2981万美元 — <a href="https://huacheng.gz-cmc.com/pages/2026/11/04/63038332caf74a088a490894ce9baca0.html">链接</a><br>
+        10. 中华网：诺斯贝尔参展报道（139届） — <a href="https://henan.china.com/m/news/roll/2026/0506/052026_725093.html">链接</a><br>
+        11. Songmile Packaging：140届展位 9.1D24 — <a href="https://www.songmile.com/zu/news/">链接</a><br><br>
+        <b>二、第141届（2027春）申报</b><br>
+        12. 广交会官网参展商页／通知公告（会业字〔2026〕384号，2026-11-05） — <a href="https://www.cantonfair.org.cn/m/exhibitor">链接</a><br>
+        13. 湖南省商务厅：第141届出口展位申请通知 — <a href="https://swt.hunan.gov.cn/swt/hnswt/85753/fdzdgknr/tzgg/202611/t20261106_34097039.html">链接</a><br>
+        14. 上观新闻：第141届组展工作启动 — <a href="https://m.jfdaily.com/sgh/detail?id=4088781">链接</a><br>
+        15. 广州市商务局：第139届展位申报通知（退展位机制） — <a href="http://sw.gz.gov.cn/ztzl/hzcj/gjh/139j/content/post_10551420.html">链接</a><br>
+        16. 中山市商务局：第139届智慧医疗专区申请通知 — <a href="https://www.zs.gov.cn/swj/gggs/content/post_2575266.html">链接</a><br><br>
+        <b>三、外贸与市场数据</b><br>
+        17. 中国医药保健品进出口商会：2026年上半年按摩保健器具出口简析 — <a href="http://www.cccmhpie.org.cn/newsinfo/11302440.html">链接</a><br>
+        18. 全国党媒信息公共平台：我国医疗器械外贸跑出稳健增长曲线 — <a href="https://www.hubpd.com/hubpd/rss/toutiao/index.html?contentId=4611686018433044468">链接</a><br>
+        19. 证券时报／经济参考报：中国美妆品牌加速全球“落子” — <a href="https://www.stcn.com/article/detail/4079376.html">链接</a><br>
+        20. 中国经济网：美妆出海考验品牌成色 — <a href="http://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261002_3246915.shtml">链接</a><br>
+        21. 中国政府网：2026年上半年进出口发布会（健身康复器械出口26.7亿元） — <a href="https://www.gov.cn/lianbo/fabu/202607/content_7075392.htm">链接</a><br>
+        22. 中国政府网：2026年上半年国民经济运行情况（化妆品类零售+6.3%） — <a href="https://www.gov.cn/lianbo/fabu/202607/content_7075948.htm">链接</a><br><br>
+        <b>四、监管与行业结构</b><br>
+        23. 证券时报／深圳商报：射频美容仪迎来强监管 — <a href="https://stcn.com/article/detail/3739172.html">链接</a><br>
+        24. 美妆头条：觅光获融资与持证品牌分化 — <a href="http://www.mztoutiao.com/index/index/wenzhang.html?id=4342">链接</a><br>
+        25. 第三方研究报告：2026中国美颜仪市场（三方口径） — <a href="http://www.docin.com/touch_new/preview_new.do?id=4981953185">链接</a><br>
+        26. 第三方研究报告：2026中国美容电器具市场（三方口径） — <a href="https://www.docin.com/touch_new/preview_new.do?id=4995498556">链接</a><br>
+        27. 华经产业研究院：2026中国美容仪行业报告（三方口径） — <a href="https://caifuhao.eastmoney.com/news/20261010134129175585340">链接</a><br><br>
+        <b>五、竞品与企业官网</b><br>
+        28. SKG：2026亚太媒体高端论坛（专利与标准） — <a href="https://cn.skg.com/news/skg-news-4">链接</a><br>
+        29. SKG INNO：Q7 Ultra 健腹仪产品页 — <a href="https://www.skginno.com/ems-centrifuge-vibration-abs-workout-belt.html">链接</a><br>
+        30. SKG 越南：QS700 Ultra 完整参数 — <a href="https://skgvietnam.com/may-massage-lung/dai-tap-bung-skg-qs700-ultra.html">链接</a><br>
+        31. SKG 官网：G7 按摩腰带 — <a href="http://cn.skg.com/product/675722644078661">链接</a><br>
+        32. 觅光官网：产品矩阵 — <a href="https://www.amiro.com.cn/product">链接</a><br>
+        33. 觅光官网：“光电+成分”胶原快充 — <a href="https://www.amiro.com.cn/news/78">链接</a><br>
+        34. 极萌官网：胶原炮 Max — <a href="https://m.jmoonbeauty.com/en/product_two.html">链接</a><br>
+        35. 极萌香港官网：水光美容仪 Pro — <a href="https://jmoon.com.hk/">链接</a><br>
+        36. 新浪科技：极萌黄金微雕三头分护结构 — <a href="https://finance.sina.com.cn/tech/roll/2026-09-30/doc-initqkpm2277471.shtml">链接</a><br>
+        37. OFAN：140届展位 9.2J26 — <a href="https://www.ofanbelleza.com/info-detail/ofan-140th-canton-fair-2026-booth-9-2j26">链接</a><br>
+        38. OSTO：139届展位 9.2E26-27 — <a href="https://www.ostomedica.com/meet-osto-at-the-139th-canton-fair-smart-solutions-for-pain-relief-recovery-beauty.html">链接</a><br>
+        39. 阿里巴巴中国站：射频／微电流导电凝胶供应页 — <a href="https://chinese.alibaba.com/g/rf-lifting-gel.html">链接</a><br><br>
+        <b>六、高端院线</b><br>
+        40. 半岛医疗：两款 NMPA 三类认证新品 — <a href="https://www.peninsula-med.com/product/details_487_1641.html">链接</a><br>
+        41. 半岛医疗：大超炮产品页 — <a href="https://www.peninsula-med.com/bandaodachaopao.html">链接</a><br>
+        42. 半岛医疗：“标准出海”报道 — <a href="https://www.peninsula-med.com/product/details_487_1735.html">链接</a><br>
+        43. 半岛医疗：2026 美沃斯医美大会 — <a href="https://www.peninsula-med.com/product/details_489_1644.html">链接</a><br>
+        44. 广交会官网：13 板块 54 展区设置 — <a href="https://www.cantonfair.org.cn">链接</a>
+      </div>
+    </div>
+  </details>
+</section>
+
+</div>
+
+<footer>
+  <div class="motto">MOVE WITH CONFIDENCE · VD FIT产品团队</div>
+  <div class="fin">市场与行业情报 · 初版 2026-11-07<br>数据截至 2026-11-05；标注“判断”之处为分析意见，不构成对外承诺。</div>
+</footer>
+
+</body>
+</html>
